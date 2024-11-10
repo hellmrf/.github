@@ -1,0 +1,80 @@
+# Categoria: Tipo
+- name: "tipo: bug"
+  color: '#036aa7'
+  description: Indica um defeito ou problema no sistema.
+  aliases: ['bug']
+
+- name: "tipo: segurança"
+  color: '#036aa7'
+  description: Indica um defeito ou problema no sistema.
+
+- name: "tipo: feature"
+  color: '#18c7e2'
+  description: Nova funcionalidade a ser implementada.
+
+- name: "tipo: melhoria"
+  color: '#90dfeb'
+  description: Sugestão de melhoria ou otimização.
+  aliases: ['enhancement']
+
+- name: "tipo: docs"
+  color: '#8cbed9'
+  description: Relacionado à documentação do projeto.
+  aliases: ['documentation']
+
+# Categoria: Prioridade
+- name: "prioridade: urgente"
+  color: '#cf513d'
+  description: Necessita de atenção imediata.
+
+- name: "prioridade: alta"
+  color: '#f0b3ab'
+  description: Alta prioridade.
+
+# Categoria: Esforço / Tipo de trabalho
+- name: "complexidade: caótico"
+  color: '#cf513d'
+  description: Complexidade extrema; não admite planejamento detalhado em virtude de muitas variáveis desconhecidas.
+
+- name: "complexidade: complexo"
+  color: '#a86cc1'
+  description: Complexidade elevada; pode exigir debate, investigação e experimentação.
+
+- name: "complexidade: complicado"
+  color: '#c883e2'
+  description: Complexidade média; solução não trivial, mas dentro do alcance do conhecimento atual.
+
+- name: "complexidade: claro"
+  color: '#dfc0eb'
+  description: Complexidade controlada; solução clara.
+
+- name: "esforço: meses"
+  color: '#081f42'
+  description: Esforço extremo necessário; pode levar meses.
+
+- name: "esforço: semanas"
+  color: '#486271'
+  description: Esforço elevado necessário; pode levar semanas.
+
+- name: "esforço: dias"
+  color: '#486271'
+  description: Algum esforço necessário; pode levar dias.
+
+# Categoria: Status
+- name: "estado: em andamento"
+  color: '#b7deb0'
+  description: Tarefa em andamento.
+
+- name: "estado: pronto"
+  color: '#59ac44'
+  description: Pronto para começar o desenvolvimento.
+
+- name: "estado: travado"
+  color: '#e7c60b'
+  description: A execução da tarefa está bloqueada por algum motivo (e.g. informações/discussão pendentes).
+  aliases: ['question']
+
+- name: "estado: inativo"
+  color: '#b9c3c9'
+  description: Decidiu-se não prosseguir com esta tarefa.
+  aliases: ['invalid', 'wontfix']

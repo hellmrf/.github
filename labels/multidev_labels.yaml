@@ -1,0 +1,80 @@
+# Categoria: Tipo
+- name: "type: bug"
+  color: '#036aa7'
+  description: Indicates a defect or issue in the system.
+  aliases: ['bug']
+
+- name: "type: security"
+  color: '#036aa7'
+  description: Indicates a security-related issue or vulnerability.
+
+- name: "type: feature"
+  color: '#18c7e2'
+  description: New functionality to be implemented.
+
+- name: "type: enhancement"
+  color: '#90dfeb'
+  description: Suggestion for improvement or optimization.
+  aliases: ['enhancement']
+
+- name: "type: docs"
+  color: '#8cbed9'
+  description: Related to project documentation.
+  aliases: ['documentation']
+
+# Categoria: Prioridade
+- name: "priority: urgent"
+  color: '#cf513d'
+  description: Requires immediate attention.
+
+- name: "priority: high"
+  color: '#f0b3ab'
+  description: High priority.
+
+# Categoria: Esforço / Tipo de trabalho
+- name: "work: chaotic"
+  color: '#cf513d'
+  description: Extreme complexity; does not allow detailed planning due to many unknown variables.
+
+- name: "work: complex"
+  color: '#a86cc1'
+  description: High complexity; may require discussion, investigation, and experimentation.
+
+- name: "work: complicated"
+  color: '#c883e2'
+  description: Medium complexity; non-trivial solution but within current knowledge scope.
+
+- name: "work: obvious"
+  color: '#dfc0eb'
+  description: Controlled complexity; clear solution.
+
+- name: "effort: months"
+  color: '#081f42'
+  description: Extreme effort required; may take months.
+
+- name: "effort: weeks"
+  color: '#486271'
+  description: Significant effort required; may take weeks.
+
+- name: "effort: days"
+  color: '#486271'
+  description: Some effort required; may take days.
+
+# Categoria: Status
+- name: "status: wip"
+  color: '#b7deb0'
+  description: Work in progress.
+
+- name: "status: ready"
+  color: '#59ac44'
+  description: Ready to start
+
+- name: "status: blocked"
+  color: '#e7c60b'
+  description: Task execution is blocked for some reason (e.g., pending information/discussion).
+  aliases: ['question']
+
+- name: "status: inactive"
+  color: '#b9c3c9'
+  description: Decided not to proceed with this task.
+  aliases: ['invalid', 'wontfix']
