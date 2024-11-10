@@ -34,7 +34,7 @@
 # Categoria: Esforço / Tipo de trabalho
 - name: "work: chaotic"
   color: '#cf513d'
-  description: Extreme complexity; does not allow detailed planning due to many unknown variables.
+  description: Extreme complexity; does not allow detailed planning; many unknown variables.
 
 - name: "work: complex"
   color: '#a86cc1'

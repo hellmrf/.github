@@ -34,7 +34,7 @@
 # Categoria: Esforço / Tipo de trabalho
 - name: "complexidade: caótico"
   color: '#cf513d'
-  description: Complexidade extrema; não admite planejamento detalhado em virtude de muitas variáveis desconhecidas.
+  description: Complexidade extrema; não admite planejamento detalhado; muitas variáveis desconhecidas.
 
 - name: "complexidade: complexo"
   color: '#a86cc1'
