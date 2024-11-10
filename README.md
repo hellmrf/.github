@@ -1,4 +1,3 @@
+# hellmrf defaults
 
-## Labels
-
-Use [`github-label-sync`](https://github.com/Financial-Times/github-label-sync) to sync with Github.
+Docs for `manage-your-labels.yml`: https://github.com/marketplace/actions/manage-your-labels

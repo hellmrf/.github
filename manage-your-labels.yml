@@ -6,7 +6,7 @@ LABEL_GROUPS:
     good first issue:
       description: "Questões adequadas para novos contribuidores; geralmente são de baixa complexidade e bem definidas."
       color: "#7057ff"
-    help:
+    help wanted:
       description: "Questões que precisam de assistência ou colaboração de outros desenvolvedores."
       color: "#0e8a16"
 
@@ -51,9 +51,9 @@ LABEL_GROUPS:
     work/complicated:
       description: "Solução não trivial, mas dentro do alcance do conhecimento atual."
       color: "#c883e2"
-    work/clear:
-      description: "Solução clara."
-      color: "#dfc0eb"
+    # work/clear:
+    #   description: "Solução clara."
+    #   color: "#dfc0eb"
     effort/months:
       description: "Alto esforço necessário; pode levar meses."
       color: "#081f42"
