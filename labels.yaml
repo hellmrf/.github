@@ -1,0 +1,91 @@
+LABEL_GROUPS:
+  DEFAULT:
+    breaking:
+      description: "Alteração que pode quebrar o funcionamento de outras partes do sistema."
+      color: "#d73a4a"
+    good first issue:
+      description: "Questões adequadas para novos contribuidores; geralmente são de baixa complexidade e bem definidas."
+      color: "#7057ff"
+    help:
+      description: "Questões que precisam de assistência ou colaboração de outros desenvolvedores."
+      color: "#0e8a16"
+
+  TYPES:
+    type/bug:
+      description: "Indica um defeito ou problema no sistema."
+      color: "#036aa7"
+      old_names:
+        - bug
+    type/security:
+      description: "Indica um defeito ou problema no sistema."
+      color: "#036aa7"
+    type/feature:
+      description: "Nova funcionalidade a ser implementada."
+      color: "#18c7e2"
+    type/enhancement:
+      description: "Sugestão de melhoria ou otimização."
+      color: "#90dfeb"
+      old_names:
+        - enhancement
+    type/docs:
+      description: "Relacionado à documentação do projeto."
+      color: "#8cbed9"
+      old_names:
+        - documentation
+
+  PRIORITY:
+    priority/urgent:
+      description: "Necessita de atenção imediata."
+      color: "#cf513d"
+    priority/high:
+      description: "Alta prioridade."
+      color: "#f0b3ab"
+
+  WORK_EFFORT:
+    work/chaotic:
+      description: "Complexidade máxima; não admite planejamento detalhado em virtude de muitas variáveis desconhecidas."
+      color: "#cf513d"
+    work/complex:
+      description: "Alta complexidade; pode exigir debate, investigação e experimentação."
+      color: "#a86cc1"
+    work/complicated:
+      description: "Solução não trivial, mas dentro do alcance do conhecimento atual."
+      color: "#c883e2"
+    work/clear:
+      description: "Solução clara."
+      color: "#dfc0eb"
+    effort/months:
+      description: "Alto esforço necessário; pode levar meses."
+      color: "#081f42"
+    effort/weeks:
+      description: "Esforço considerável necessário; pode levar semanas."
+      color: "#486271"
+    effort/days:
+      description: "Algum esforço necessário; pode levar dias."
+      color: "#486271"
+
+  STATUS:
+    status/wip:
+      description: "Tarefa em andamento."
+      color: "#b7deb0"
+    status/ready:
+      description: "Pronto para começar o desenvolvimento."
+      color: "#59ac44"
+    status/blocked:
+      description: "A execução da tarefa está bloqueada por algum motivo (e.g. informações/discussão pendentes)."
+      color: "#e7c60b"
+      old_names:
+        - question
+    status/inactive:
+      description: "Decidiu-se não prosseguir com esta tarefa."
+      color: "#b9c3c9"
+      old_names:
+        - invalid
+        - wontfix
+
+REPOS:
+  privacypoint-site:
+    - TYPES
+    - STATUS
+    - PRIORITY
+    - WORK_EFFORT
